@@ -1,8 +1,8 @@
 {
     "page": {
-        "title": "Series",
-        "empty": "No hay series disponibles.",
-        "add": "Añadir serie"
+        "title": "Listado de Razas",
+        "empty": "No hay razas disponibles.",
+        "add": "Añadir raza"
     },
 
     "rickymorty": {

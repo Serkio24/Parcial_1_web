@@ -4,7 +4,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { LocalStorageProvider } from "./components/LocalStorageAsContext";
 import { DiccionarioProvider } from "./components/DiccionarioContext";
 import { getDictionary } from "./diccionarios";
-import { ApiProvider } from "./rickymorty/ApiContext";
+import { ApiProvider } from "./components/APIDogs";
+import  Header from "./components/Header";
+import { Footer } from "./components/Footer";
 
 /**
  * Root layout de la aplicación.
@@ -57,9 +59,14 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         {/* NOTA: las comillas invertidas sueltas del final se renderizan como texto. */}
         <DiccionarioProvider dict={dict} lang={lang}>
           <ApiProvider>
-            <LocalStorageProvider>{children}</LocalStorageProvider>
+            <LocalStorageProvider>
+              <Header />
+              {children}
+              <Footer />
+            </LocalStorageProvider>
           </ApiProvider>
-        </DiccionarioProvider>``
+        </DiccionarioProvider>
+  
       </body>
     </html>
   );

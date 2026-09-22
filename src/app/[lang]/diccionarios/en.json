@@ -1,8 +1,8 @@
 {
     "page": {
-        "title": "Series",
-        "empty": "No series available.",
-        "add": "Add series"
+        "title": "List of Breeds",
+        "empty": "No breeds available.",
+        "add": "Add breed"
         
     },
 
