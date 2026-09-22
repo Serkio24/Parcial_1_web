@@ -6,33 +6,32 @@
         
     },
 
-    "series": [
-        {
-            "id": 1,
-            "number": 1,
-            "title": "Madoka Magica",
-            "description": "Magical girls.",
-            "rating": 9.5
-        },
-        {
-            "id": 2,
-            "number": 2,
-            "title": "Soups",
-            "description": "Delicious soups.",
-            "rating": 9.3
-        }
-    ],
+    "rickymorty": {
+        "title": "Rick and Morty",
+        "empty": "No characters available."
+    },
 
     "errores":{
         "titleerror": "Title is required",
+        "statuserror": "Status is required",
+        "specieserror": "Species is required",
+        "typeerror": "Type is required",
+        "gendererror": "Gender is required",
+        "imageerror": "Image is required",
         "descriptionerror": "Description is required",
         "ratingerror": "Rating must be between 0 and 10" 
     },
 
     "formulario": {
         "title": "Title",
+        "status": "Status",
+        "species": "Species",
+        "type": "Type",
+        "gender": "Gender",
+        "image": "Image",
         "description": "Description",
         "rating": "Rating",
         "submit": "Submit"
-    }
+    },
+    "create_character": "Create"
 }

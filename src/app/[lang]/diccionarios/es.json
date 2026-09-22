@@ -5,22 +5,10 @@
         "add": "Añadir serie"
     },
 
-    "series": [
-        {
-            "id": 1,
-            "number": 1,
-            "title": "Madoka Magica",
-            "description": "Chicas magicas.",
-            "rating": 9.5
-        },
-        {
-            "id": 2,
-            "number": 2,
-            "title": "Sopas",
-            "description": "Sopas deliciosas.",
-            "rating": 9.3
-        }
-    ],
+    "rickymorty": {
+        "title": "Rick y Morty",
+        "empty": "No hay personajes disponibles."
+    },
     "errores":{
         "titleerror": "El título es obligatorio",
         "descriptionerror": "La descripción es obligatoria",
@@ -28,8 +16,15 @@
     },
     "formulario": {
         "title": "Título",
+        "status": "Estado",
+        "species": "Especie",
+        "type": "Tipo",
+        "gender": "Género",
+        "image": "Imagen",
         "description": "Descripción",
         "rating": "Calificación",
         "submit": "Enviar"
-    }
+    },
+    "create_character": "Crear"
+
 }
