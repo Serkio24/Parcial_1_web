@@ -1,0 +1,35 @@
+{
+    "page": {
+        "title": "Series",
+        "empty": "No hay series disponibles.",
+        "add": "Añadir serie"
+    },
+
+    "series": [
+        {
+            "id": 1,
+            "number": 1,
+            "title": "Madoka Magica",
+            "description": "Chicas magicas.",
+            "rating": 9.5
+        },
+        {
+            "id": 2,
+            "number": 2,
+            "title": "Sopas",
+            "description": "Sopas deliciosas.",
+            "rating": 9.3
+        }
+    ],
+    "errores":{
+        "titleerror": "El título es obligatorio",
+        "descriptionerror": "La descripción es obligatoria",
+        "ratingerror": "La calificación debe estar entre 0 y 10"
+    },
+    "formulario": {
+        "title": "Título",
+        "description": "Descripción",
+        "rating": "Calificación",
+        "submit": "Enviar"
+    }
+}
